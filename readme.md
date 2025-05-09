@@ -35,7 +35,10 @@ This is the frontend part for the Full Stack To-Do List. It's built with React, 
     npm install
 
     ```
-
+3.  **Set up Environment Variables:**
+    Create a `.env` file in the root directory. 
+    ```env
+    VITE_API_URL=http://localhost:3001/api
 
 
 ## Available Scripts

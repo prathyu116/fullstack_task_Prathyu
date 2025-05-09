@@ -1,6 +1,7 @@
 import { Note } from '../types';
 
-const API_BASE_URL = 'http://localhost:3001/api'; // Backend API URL
+const API_BASE_URL = import.meta.env.VITE_API_URL ; // Backend API URL
+
 
 export const fetchAllTasks = async (): Promise<Note[]> => {
   const response = await fetch(`${API_BASE_URL}/tasks/fetchAllTasks`);
