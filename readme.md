@@ -27,7 +27,7 @@ This is the frontend part for the Full Stack To-Do List. It's built with React, 
 1.  **Clone the repository (if applicable, otherwise navigate to the frontend directory):**
     ```bash
     git clone <your-repo-url>
-    cd repo
+    cd in to the repo
     ```
 
 2.  **Install dependencies:**
